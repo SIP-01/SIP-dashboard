@@ -37,7 +37,8 @@ npm run build
 
 ## Links
 
-- Spec: [`public/spec/SIP-01.md`](https://github.com/NostrDanish/SIP-01/blob/main/public/spec/SIP-01.md) (v1.2)
+- Spec: [`public/spec/SIP-01.md`](https://github.com/NostrDanish/SIP-01/blob/main/public/spec/SIP-01.md) (v1.3)
+- Wire compatibility: kind 39697 remains schema `v="1"`; v1.3 adds optional `role`/`proto` discovery hints and an optional pointer to the separate ORBSTR kind-39698 capability profile. The dashboard displays and validates kind-39697 observations; it does not execute discovered services.
 - Documentation site: [sip.shakespeare.wtf](https://sip.shakespeare.wtf/)
 - Implementation guide: [`docs/IMPLEMENTATION-GUIDE.md`](https://github.com/NostrDanish/SIP-01/blob/main/docs/IMPLEMENTATION-GUIDE.md)
 - Flagship engine: [dsearch.com](https://dsearch.com)
